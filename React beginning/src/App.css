@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+}
+.App {
+  text-align: center;
+  background: #F37335;
+  height: 120vh;
+  width: 100%;
+  padding-top: 50px;
+  font-family: 'Noto Serif', serif;
+  color: white;
+  border-radius: 20px;
+}
+
+
+.UserOutput {
+  display: inline-block;
+  background: #799F0C;
+  padding: 20px;
+  height: 200px;
+  width: 300px;
+  text-align: left;
+  font-size: 20px;
+  margin: 40px;
+  
+}
+.UserOutput p {
+  padding: 10px;
+  color: black;
+}
