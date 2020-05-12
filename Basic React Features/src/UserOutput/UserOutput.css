@@ -1,0 +1,33 @@
+.output-container{
+	background: #2c3e50;
+	box-shadow: 0px 0px 8px #ccc;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px 2.5% 30px;
+	padding: 1%;
+	transition: all 0.3s ease-in-out;
+	width: 18%;
+}
+
+.output-container > p.outputUserName{
+	color: #fff;
+	font-size: 18px;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	transition: all 0.3s ease-in-out;
+}
+
+.output-container > p.outputText{
+	color: #ccc;
+	letter-spacing: 1px;
+	transition: all 0.3s ease-in-out;
+}
+
+.output-container:hover{
+	background: #fff;
+}
+
+.output-container:hover > p.outputUserName,
+.output-container:hover > p.outputText{
+	color: #2c3e50;
+}
